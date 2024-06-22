@@ -41,7 +41,7 @@ const Descriptions = ({ next }: Props) => {
         />
       </div>
       <Image
-        src="/assets/image7.png"
+        src="/goodoo/assets/image7.png"
         alt="image1"
         width={300}
         height={150}

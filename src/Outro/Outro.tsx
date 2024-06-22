@@ -29,7 +29,7 @@ const Outro = ({ retry }: Props) => {
     return (
       <Page>
         <Image
-          src={"/assets/image8.png"}
+          src={"/goodoo/assets/image8.png"}
           alt="image8"
           width={window.innerWidth}
           height={200}
@@ -58,7 +58,7 @@ const Outro = ({ retry }: Props) => {
   return (
     <Page>
       <Image
-        src={"/assets/image8.png"}
+        src={"/goodoo/assets/image8.png"}
         alt="image8"
         width={window.innerWidth}
         height={200}

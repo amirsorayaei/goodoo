@@ -19,30 +19,30 @@ const Intro = ({ next }: Props) => {
         audioRef.current?.play().then(() => {
           setFinished(false);
 
-          setImage("/assets/image1.png");
+          setImage("/goodoo/assets/image1.png");
 
           setTimeout(() => {
-            setImage("/assets/image2.png");
+            setImage("/goodoo/assets/image2.png");
           }, 1400);
 
           setTimeout(() => {
-            setImage("/assets/image3.png");
+            setImage("/goodoo/assets/image3.png");
           }, 1400 + 600);
 
           setTimeout(() => {
-            setImage("/assets/image5.png");
+            setImage("/goodoo/assets/image5.png");
           }, 1400 + 600 + 600);
 
           setTimeout(() => {
-            setImage("/assets/image7.png");
+            setImage("/goodoo/assets/image7.png");
           }, 1400 + 600 + 600 + 1200);
 
           setTimeout(() => {
-            setImage("/assets/image3.png");
+            setImage("/goodoo/assets/image3.png");
           }, 1400 + 600 + 600 + 1200 + 600);
 
           setTimeout(() => {
-            setImage("/assets/image1.png");
+            setImage("/goodoo/assets/image1.png");
           }, 1400 + 600 + 600 + 1200 + 600 + 500);
 
           setTimeout(() => {
@@ -75,7 +75,7 @@ const Intro = ({ next }: Props) => {
           ) : (
             <div>
               <Image
-                src={"/assets/image9.png"}
+                src={"/goodoo/assets/image9.png"}
                 alt="image1"
                 width={window.innerWidth}
                 height={150}
@@ -151,7 +151,7 @@ const Intro = ({ next }: Props) => {
       <audio
         id="audio"
         ref={audioRef}
-        src="/salam.mp3"
+        src="/goodoo/salam.mp3"
         playsInline
         style={{ display: "none" }}
       />
