@@ -1,0 +1,26 @@
+/*
+ * Yekan Bakh
+ */
+@font-face {
+  font-family: "YBL"; /* Yekan Bakh Light */
+  src: url(../fonts/yekan-bakh/woff/Font-Light.woff) format("woff"),
+    url(../fonts/yekan-bakh/ttf/Font-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "YBR"; /* Yekan Bakh Regular */
+  src: url(../fonts/yekan-bakh/woff/Font-Regular.woff) format("woff"),
+    url(../fonts/yekan-bakh/ttf/Font-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "YBB"; /* Yekan Bakh Bold */
+  src: url(../fonts/yekan-bakh/woff/Font-Bold.woff) format("woff"),
+    url(../fonts/yekan-bakh/ttf/Font-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "YBEB"; /* Yekan Bakh Extra Black */
+  src: url(../fonts/yekan-bakh/woff/Font-ExtraBlack.woff) format("woff"),
+    url(../fonts/yekan-bakh/ttf/Font-ExtraBlack.ttf) format("truetype");
+}
