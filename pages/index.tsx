@@ -10,7 +10,7 @@ enum STEPS {
 }
 
 export default function Home() {
-  const [step, setStep] = useState<STEPS>(STEPS.STEP2);
+  const [step, setStep] = useState<STEPS>(STEPS.STEP1);
 
   return (
     <>
